@@ -1,0 +1,40 @@
+
+body{
+    width:100%;
+}
+
+.flex-container{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    align-items: center;   
+}
+
+.flex-items{
+    width: 200px;
+    color:white;
+    padding:30px;
+}
+
+
+#item1{
+    background: hsl(31, 77%, 52%);
+}
+
+#item2{
+    background: hsl(184, 100%, 22%);
+}
+
+#item3{
+    background: hsl(179, 100%, 13%);
+}
+
+button{
+    padding:10px;
+    background: transparent;
+    border:1px solid white;
+    border-radius: 25px;
+    color: white;
+    margin-top: 40px;
+    cursor: pointer;
+}
